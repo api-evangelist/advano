@@ -1,8 +1,27 @@
 aid: advano
 name: Advano
-description: Advano is a company surfaced as a portfolio company of dcvc, partech and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Advano is a New Orleans, Louisiana battery-materials company that develops silicon-based
+  anode materials for lithium-ion batteries. Spun out of Tulane University in 2016 and backed by 25+
+  patents, its flagship REALSi silicon-carbon composite is engineered as a drop-in replacement for
+  graphite anodes, delivering up to 9x the energy density of graphite for electric vehicles, consumer
+  electronics, defense, and grid energy storage. Advano's process avoids hazardous silane gas, uses
+  abundant metallurgical-grade silicon, and runs on existing manufacturing equipment. The company
+  operates a pilot plant in New Orleans East and is scaling toward 3,000 tons of REALSi in 2026 and
+  20,000 tons by 2030. This is a physical deep-tech manufacturer with no public API or developer
+  platform; it is catalogued in the API Evangelist network as a VC portfolio company profile.
 url: https://raw.githubusercontent.com/api-evangelist/advano/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.advano.io/images/favicon/apple-touch-icon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -10,11 +29,20 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-industry: battery-materials
+x-no-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Battery Materials
+- Silicon Anode
+- Lithium-Ion Batteries
+- Electric Vehicles
+- Energy Storage
+- Deep Tech
+- Advanced Manufacturing
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +50,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/advano-domain-security.yml
 - type: Website
   url: https://www.advano.io/
+- type: Blog
+  url: https://www.advano.io/news
+- type: Support
+  url: https://www.advano.io/contact
+- type: TermsOfService
+  url: https://www.advano.io/site/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.advano.io/site/privacy-policy
+- type: Careers
+  url: https://www.advano.io/careers
+- type: LinkedIn
+  url: https://www.linkedin.com/company/advano
+- type: Twitter
+  url: https://twitter.com/advanotech
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
