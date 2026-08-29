@@ -10,6 +10,9 @@ description: Advano is a New Orleans, Louisiana battery-materials company that d
   20,000 tons by 2030. This is a physical deep-tech manufacturer with no public API or developer
   platform; it is catalogued in the API Evangelist network as a VC portfolio company profile.
 url: https://raw.githubusercontent.com/api-evangelist/advano/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "This is a physical deep-tech manufacturer with no public API or developer platform; it is catalogued in the API Evangelist network as a VC portfolio company profile."
 deliveryModel:
   model: saas
   open_source: false
